@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { 
   let text = getURLParam('text');
   if (!text) {
-    text = `Para la persona que me gusta:\n\n Todo empezo desde que entraste a mi mente y no deje de pensar en ti. Tu sonrisa, tu voz, tu respuestas, tu forma de ser, tu tranquilidad, como te enfocas en lo que haces.\n\ A tu lado, todo es mas alegre, gracioso, maravilloso, no hay dia en que no piense en ti, hacer cosas juntos como pintar, mirar peliculas, compartir historias.\n\n Quiero permanecer a tu lado, lo que siento por ti es algo que con  palabras no puedo expresar.`;  } else {
+    text = `Para la persona que me gusta:\n\n Todo empezo desde que entraste a mi mente y no deje de pensar en ti. Tu sonrisa, tu voz, tu respuestas, tu forma de ser, tu tranquilidad, como te enfocas en lo que haces.\n\ A tu lado, todo es mas alegre, gracioso, maravilloso, no hay dia en que no piense en ti, hacer cosas juntos como pintar, mirar peliculas, compartir historias.\n\n Quiero permanecer a tu lado, lo que siento por ti es algo que con  palabras no puedo expresar. ¿vamos el martes juntos a la universidad? por que quiero decirte mas cosas`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
